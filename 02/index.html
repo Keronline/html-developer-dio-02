@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Jobs</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        header, main, footer{
+        }
+        .conteudo{
+            border: solid 2px blue;
+        }
+
+        .cabecalho{
+            height: 50px;
+            border: solid 2px green;
+        }
+
+        .cabecalho ul{
+            display: flex;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+
+        .cabecalho ul li{
+            display: flex;
+            margin-right: 30px;
+        }
+
+        .rodape{
+            height: 100px;
+            border: solid 2px red;            
+        }
+        
+        th, td{
+            border: solid 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <header  class="cabecalho" id="cabecalho">
+        <ul>
+            <li><a href="#Principal">Página Principal</a></li>
+            <li><a href="#Clinica">Sobre a clínica</a></li>
+            <li><a href="#Horario">Horário de Atendimento</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+    </header>    
+    <main class="conteudo" >
+        <section>
+            <figure>
+                <img src="images/bem-estar.jpg" alt="Mãos dadas de duas pessoas negras" style="width: 300px;">
+                <figcaption>Bem-estar</figcaption>
+            </figure>
+            <br/>
+            <h2 id="Principal">Página Principal</h2>
+            <small><a href="#cabecalho">(Topo)</a></small>
+            <p>O exame admissional é uma avaliação médica que deve ser feita antes do funcionário iniciar suas atividades na empresa. O atestado admissional é obrigatório pelo artigo 168 da CLT e é feito para comprovar que o novo colaborador está apto para trabalhar.</p>
+            <br/>
+            <h2 id="Clinica">Sobre a clínica</h2>
+            <small><a href="#cabecalho">(Topo)</a></small>
+            <p>Desse modo, a Clínica Jobs surgeu no mercado para poder dar o atendimento que toda pessoa precisa para iniciar em um novo emprego dos sonhos.</p>
+            <p>Criado no ano de 2000 por um grupo de amigos que queriam dar o melhor tratamento aos seus pacientes.</p>
+            <figure>
+                <img src="images/amigos.jpg" alt="Mãos dadas de duas pessoas negras" style="width: 300px;">
+                <figcaption>Amigos</figcaption>
+            </figure>
+            <p>Nós oferecemos diversos serviços de maneira específica para o interesse de cada cliente. Além disso, há uma vasta gama de possiiblidades de ofertas para clientes assíduos.</p>
+            <figure>
+                <img src="images/pessoas.jpg" alt="Mãos dadas de duas pessoas negras" style="width: 300px;">
+                <figcaption>Acolhimento</figcaption>
+            </figure>
+            <br/>
+            <h2 id="Horario">Horário de Atendimento</h2>
+            <small><a href="#cabecalho">(Topo)</a></small>
+            <table style="border: solid 1px;">
+                <tr>
+                    <th>Dia da semana</th>
+                    <th>Horário</th>
+                </tr>
+                <tr>
+                    <td>Segunda a sexta</td>
+                    <td>das 8h às 18h</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>das 8h às 16h</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>das 10h às 14h</td>
+                </tr>
+            </table>
+            <br/>
+            <h2 id="Contato">Contato</h2>
+            <small><a href="#cabecalho">(Topo)</a></small>
+            <form  action="#">
+                <label>Nome: </label>
+                <input type="text"/> <br>
+                <label>Sobrenome: </label>
+                <input type="text"/> <br>
+                <label>Email: </label>
+                <input type="text"/> <br>
+                <label>Mensagem: </label>
+                <textarea></textarea> <br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <span>São Paulo - SP</span>
+        <span>Rua Casa das Rosas, n°3242 - Lara Marques</span>
+    </footer>
+</body>
+</html>
